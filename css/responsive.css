@@ -1,0 +1,281 @@
+@media (max-width: 768px) {
+
+  body,html{
+
+    overflow-x: hidden;
+  }
+
+  .header_section{
+
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+  }
+
+  .header-bottom .nav-class ul {
+    display: flex;
+    flex-direction:row;
+    /* justify-content: space-arround; */
+
+  }
+  .header-bottom .nav-class ul .left-item {
+    padding: 1px 1px;
+    list-style: none;
+  }
+
+  .header-bottom .nav-class ul .right-item {
+    list-style: none;
+    box-sizing: border-box;
+    padding: 5px 0px;
+    position: relative;
+    left: 0%;
+    
+
+      }
+      .header-bottom .nav-class ul .right-item a {
+      
+        color:white;
+      }
+
+      .header-bottom .nav-class ul .left-item a {
+      
+        color:white;
+      }
+
+      .header_section .header_top a {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        padding-left: 5%;
+      }
+
+      .parallel-lines button {
+        display: block;
+        z-index: 1;
+        background-color: black;
+        
+      }
+      /* .special-class
+      {
+        display:none;
+      } */
+
+      .custom-class {
+        background-color:white;
+        position: fixed;
+        top: -4%;
+        width: 100vw;
+        height: 15vh;
+        
+
+      }
+      .header-bottom .my-button {
+        display: block;
+        position: fixed;
+        top:6%;
+      }
+
+      .special-class{
+        display: none;
+      }
+
+        
+     
+      /* .CrossName{
+        display
+      } */
+     
+      .detail-about {
+        position: relative;
+        left: 36%;
+        top:44%;
+      }
+      .detail-about h2 {
+        color: white;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        position: relative;
+        right:21%;
+        top:40%;
+      }
+      .detail-about p {
+        color: white;
+        font-size: medium;
+        position: relative;
+        right: 35%;
+      }
+      .detail-about button {
+        background-color: black;
+        border: none;
+        padding: 20px 40px;
+        color: white;
+        position: relative;
+        left: -7%;
+      }
+
+      .vertical-text {
+        background-color: black; 
+          color: white; 
+          transform: rotate(-90deg); 
+          transform-origin: left bottom; 
+          white-space: nowrap; 
+          position: fixed; 
+          top:65%; 
+          left:100%; 
+          width: 35%;
+          height:5%;
+          text-align: center; 
+          padding-top: 20px;
+          font-size: 16px; 
+              }
+
+
+              .vertical-whatsapp{
+
+                transform-origin: left bottom; /* Set the rotation origin to the left bottom corner */
+                white-space: nowrap; /* Prevent text from wrapping to the next line */
+                position: fixed; /* Position the element as fixed */
+                top:94%; 
+                left:91%;  
+            }
+
+
+            .ImageSection {
+              display: flex;
+              flex-direction:column;
+            }
+            .ImageSection .TextSection-txt{
+              position: relative;
+              left:2%;
+            }
+
+            
+        
+            
+            .ImageSection p {
+              text-align: center;
+            }
+            .ImageSection h1 {
+              text-align: center;
+            }
+            .ImageSection a {
+              text-decoration: none;
+              color: black;
+              background-color: burlywood;
+              padding: 14px 14px 14px 14px;
+              position: relative;
+              left:45%;
+              top:10%;
+            }
+
+            .ImageSection-left {
+              display: flex;
+              flex-direction: column-reverse;
+            }
+            .ImageSection-left .ImageSection-img-left{
+              margin-top: 5%;
+            }
+            .ImageSection-left .TextSection-txt-left {
+              position: relative;
+              left: 15%;
+              margin-top: 20%;
+            }
+            .ImageSection-left .TextSection-txt-left p {
+              text-align: center;
+            }
+            .ImageSection-left .TextSection-txt-left h1 {
+              text-align: center;
+            }
+            .ImageSection-left .TextSection-txt-left a {
+              text-decoration: none;
+              color: black;
+              background-color: burlywood;
+              padding: 14px 14px 14px 14px;
+              position: relative;
+              left: 45%;
+              top: 5%;
+            }
+
+            #Lesaan{
+              background-color: white;
+            }
+
+            .JournalContainer {
+              background-color: #f8ecec;
+              overflow-y: scroll;
+            }
+
+            .JournalContainer .NackJournal {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              padding: 10px 10px;
+            }
+
+
+
+            .ContactJournal {
+              background-color: #000;
+            }
+            .ContactJournal .blockContainer {
+              display: flex;
+              flex-direction: column;
+              justify-content:center;
+            }
+            .ContactJournal .blockContainer .blockfirst {
+              margin-top: 10%;
+              margin-left: 45%;
+            }
+            .ContactJournal .blockContainer .blocksecond {
+              margin-top: 10%;
+              margin-left: 40%;
+              box-sizing: border-box;
+            }
+            .ContactJournal .blockContainer .blockthird {
+              margin-top: 7%;
+              margin-left: 28%;
+            }
+            .ContactJournal .blockContainer .blockthird a {
+              color: white;
+            }
+            .ContactJournal .blockContainer .blockfourth {
+              margin-top: 4%;
+              margin-left:28%; 
+            }
+            .ContactJournal .blockContainer .blockfourth form h3 {
+              color: white;
+            }
+            .ContactJournal .blockContainer .blockfourth form span {
+              color: white;
+              font-size: x-small;
+            }
+            .ContactJournal .blockContainer .blockfourth form a {
+              text-decoration: none;
+              color: white;
+              background-color: rgb(207, 140, 52);
+            }
+            .ContactJournal .DateResevere p {
+              color: white;
+              margin-left: 36%;
+            }
+           
+        
+    }
+
+    @media only screen and (max-width: 1023px) {
+      .slider-wrapper .slide-button {
+        display: none !important;
+      }
+      .slider-wrapper .image-list {
+        gap: 10px;
+        margin-bottom: 15px;
+        scroll-snap-type: x mandatory;
+      }
+      .slider-wrapper .image-list .image-item {
+        width: 280px;
+        height: 380px;
+      }
+      .slider-scrollbar .scrollbar-thumb {
+        width: 20%;
+      }
+    }

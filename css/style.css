@@ -1,0 +1,465 @@
+body {
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+
+.header_section {
+  background-image: url("https://nack.life/cdn/shop/files/Carousel_Web_Banner_img-01_1280x.jpg?v=1684483241");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.header_section .header_top {
+  width: 100vw;
+  background-color: #90b088;
+  height: 6vh;
+}
+.header_section .header_top a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 35%;
+}
+
+.header-bottom .my-button {
+  display: none;
+}
+.header-bottom .nav-class ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-arround;
+}
+.header-bottom .nav-class ul .left-item {
+  padding: 40px 20px;
+  list-style: none;
+  position: relative;
+  right: 4%;
+}
+.header-bottom .nav-class ul .left-item a {
+  text-decoration: none;
+  color: white;
+}
+.header-bottom .nav-class ul #select {
+  background: none;
+  border: none;
+  color: white;
+}
+.header-bottom .nav-class ul #select1 {
+  background: none;
+  border: none;
+  color: white;
+}
+.header-bottom .nav-class ul .centre-item img {
+  width: 100px;
+  margin-left: 80%;
+  margin-top: 20px;
+}
+.header-bottom .nav-class ul .right-item {
+  list-style: none;
+  box-sizing: border-box;
+  padding: 40px 20px;
+  position: relative;
+  left: 30%;
+  padding: 40px 20px;
+}
+.header-bottom .nav-class ul .right-item a {
+  text-decoration: none;
+  color: white;
+}
+
+.header_section .header-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.header_section .header-button .left-button button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.header_section .header-button .left-button button:hover {
+  background-color: yellow;
+}
+.header_section .header-button .right-button button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.header_section .header-button .right-button button:hover {
+  background-color: yellow;
+}
+.header_section .header-button .middle-button button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.header_section .header-button .middle-button button:hover {
+  background-color: yellow;
+}
+
+.custom-class {
+  background-color: white;
+  position: fixed;
+  top: -4%;
+  width: 100vw;
+  height: 15vh;
+  z-index: 999;
+}
+.custom-class .nav-class ul .left-item a {
+  color: black;
+}
+.custom-class .nav-class ul .right-item a {
+  color: black;
+}
+.custom-class .nav-class ul #select {
+  background: none;
+  border: none;
+  color: black;
+}
+.custom-class .nav-class ul #select1 {
+  background: none;
+  border: none;
+  color: black;
+}
+
+.parallel-lines button {
+  display: none;
+}
+
+.CrossName {
+  display: none;
+}
+
+.detail-about {
+  position: relative;
+  left: 36%;
+}
+.detail-about h2 {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.detail-about p {
+  color: white;
+  font-size: medium;
+  position: relative;
+  right: 8%;
+}
+.detail-about button {
+  background-color: black;
+  border: none;
+  padding: 20px 40px;
+  color: white;
+  position: relative;
+  left: 7%;
+}
+
+.vertical-text {
+  background-color: black;
+  color: white;
+  transform: rotate(-90deg);
+  transform-origin: left bottom;
+  white-space: nowrap;
+  position: fixed;
+  top: 51%;
+  left: 100%;
+  width: 15%;
+  height: 5%;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 16px;
+  z-index: 999;
+}
+
+.res-navbar {
+  background-color: white;
+  width: 50vw;
+  position: relative;
+  margin-top: -78%;
+  display: none;
+}
+.res-navbar ul li {
+  list-style: none;
+  padding: 4px 4px 4px 4px;
+}
+.res-navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.CustomTwo {
+  display: block;
+}
+
+.vertical-whatsapp {
+  transform-origin: left bottom;
+  white-space: nowrap;
+  position: fixed;
+  top: 94%;
+  left: 96%;
+  z-index: 999;
+}
+
+.after-header-text p {
+  text-align: center;
+}
+.after-header-text h1 {
+  text-align: center;
+}
+
+.slider-wrapper {
+  position: relative;
+}
+
+.slider-wrapper .slide-button {
+  position: absolute;
+  top: 50%;
+  outline: none;
+  border: none;
+  height: 50px;
+  width: 50px;
+  z-index: 5;
+  color: #fff;
+  display: flex;
+  cursor: pointer;
+  font-size: 2.2rem;
+  background: #000;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+.slider-wrapper .slide-button:hover {
+  background: #404040;
+}
+
+.slider-wrapper .slide-button#prev-slide {
+  left: -25px;
+  display: none;
+}
+
+.slider-wrapper .slide-button#next-slide {
+  right: -25px;
+}
+
+.slider-wrapper .image-list {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 18px;
+  font-size: 0;
+  list-style: none;
+  margin-bottom: 30px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.slider-wrapper .image-list::-webkit-scrollbar {
+  display: none;
+}
+
+.slider-wrapper .image-list .image-item {
+  width: 325px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container .slider-scrollbar {
+  height: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.slider-scrollbar .scrollbar-track {
+  background: #ccc;
+  width: 100%;
+  height: 2px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  position: relative;
+}
+
+.slider-scrollbar:hover .scrollbar-track {
+  height: 4px;
+}
+
+.slider-scrollbar .scrollbar-thumb {
+  position: absolute;
+  background: #000;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  height: 100%;
+  cursor: grab;
+  border-radius: inherit;
+}
+
+.slider-scrollbar .scrollbar-thumb:active {
+  cursor: grabbing;
+  height: 8px;
+  top: -2px;
+}
+
+.slider-scrollbar .scrollbar-thumb::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -10px;
+  bottom: -10px;
+}
+
+.ImageSection {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.ImageSection .TextSection-txt {
+  position: relative;
+  right: 15%;
+  margin-top: 25%;
+}
+.ImageSection .TextSection-txt p {
+  text-align: center;
+}
+.ImageSection .TextSection-txt h1 {
+  text-align: center;
+}
+.ImageSection .TextSection-txt a {
+  text-decoration: none;
+  color: black;
+  background-color: burlywood;
+  padding: 14px 14px 14px 14px;
+  position: relative;
+  left: 45%;
+  top: 5%;
+}
+
+.ImageSection-left {
+  display: flex;
+  flex-direction: row;
+}
+.ImageSection-left .TextSection-txt-left {
+  position: relative;
+  left: 15%;
+  margin-top: 25%;
+}
+.ImageSection-left .TextSection-txt-left p {
+  text-align: center;
+}
+.ImageSection-left .TextSection-txt-left h1 {
+  text-align: center;
+}
+.ImageSection-left .TextSection-txt-left a {
+  text-decoration: none;
+  color: black;
+  background-color: burlywood;
+  padding: 14px 14px 14px 14px;
+  position: relative;
+  left: 45%;
+  top: 5%;
+}
+
+#Text-BG {
+  background-color: #f8ecec;
+  padding: 60px 60px;
+}
+
+#readmore {
+  position: relative;
+  left: 36%;
+}
+
+#Lesaan {
+  background-color: #f8ecec;
+}
+
+#pari {
+  margin-top: 15%;
+}
+
+.someText {
+  margin-left: 14%;
+}
+.someText p {
+  letter-spacing: 2;
+}
+.someText a {
+  text-decoration: none;
+  color: #000;
+  size: small;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+.someText a:hover {
+  color: orange;
+}
+
+.JournalContainer {
+  background-color: #f8ecec;
+}
+.JournalContainer h2 {
+  text-align: center;
+}
+.JournalContainer .NackJournal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.JournalContainer .NackJournal .imageOneNack .anchorNack a {
+  color: #000;
+}
+.JournalContainer .NackJournal .imageOneNack .anchorNack a:hover {
+  color: orange;
+}
+.JournalContainer .NackJournal .imageOneNack .Read a {
+  -webkit-text-decoration: orange;
+          text-decoration: orange;
+  border-bottom: orange;
+}
+
+.ContactJournal {
+  background-color: #000;
+}
+.ContactJournal .blockContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.ContactJournal .blockContainer .blockfirst {
+  margin-top: 10%;
+  margin-left: 2%;
+}
+.ContactJournal .blockContainer .blocksecond {
+  margin-top: 10%;
+  margin-left: 2%;
+  box-sizing: border-box;
+}
+.ContactJournal .blockContainer .blockthird {
+  margin-top: 7%;
+  margin-left: 2%;
+}
+.ContactJournal .blockContainer .blockthird a {
+  color: white;
+}
+.ContactJournal .blockContainer .blockfourth {
+  margin-top: 4%;
+  margin-right: 4%;
+}
+.ContactJournal .blockContainer .blockfourth form h3 {
+  color: white;
+}
+.ContactJournal .blockContainer .blockfourth form span {
+  color: white;
+  font-size: x-small;
+}
+.ContactJournal .blockContainer .blockfourth form a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(207, 140, 52);
+}
+.ContactJournal .DateResevere p {
+  color: white;
+  margin-left: 45%;
+}/*# sourceMappingURL=style.css.map */
