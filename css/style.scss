@@ -272,10 +272,11 @@ background-color: black;
         background-color: white;
       
         width:50vw;
-        position: relative;
+        //position: fixed;
         margin-top: -78%;
         display: none;
         ul {
+          
 
             li{
                 list-style: none;
@@ -290,6 +291,7 @@ background-color: black;
 
     .CustomTwo{
         display: block;
+       
     }
 
 
@@ -606,4 +608,9 @@ background-color: black;
             }
         }
 
+    }
+    .timepass{
+        display:none;
+        
+        
     }

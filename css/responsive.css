@@ -31,7 +31,14 @@
     position: relative;
     left: 0%;
     
+    
 
+      }
+
+      .header-bottom .nav-class ul .centre-item
+      {
+        position:relative;
+        left:12%;
       }
       .header-bottom .nav-class ul .right-item a {
       
@@ -258,6 +265,16 @@
               color: white;
               margin-left: 36%;
             }
+
+            .timepass{
+              position: fixed;
+              left:86%;
+              top:6%;
+              
+              
+
+            }
+
            
         
     }
@@ -279,3 +296,4 @@
         width: 20%;
       }
     }
+
